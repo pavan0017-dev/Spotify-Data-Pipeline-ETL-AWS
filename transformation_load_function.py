@@ -103,6 +103,5 @@ def lambda_handler(event, context):
             'Bucket': Bucket,
             'Key': key
         }
-        print(key)
         s3_resource.meta.client.copy(copy_source, Bucket, 'raw_data/processed/' + key.split("/")[-1])    
         s3_resource.Object(Bucket, key).delete()
