@@ -1,10 +1,10 @@
-### Spotify-Data-Pipeline-ETL-AWS
+## Spotify-Data-Pipeline-ETL-AWS
 This project builds an automated data pipeline for extracting, transforming, and analyzing Spotify data using AWS services. AWS Lambda fetches data from the Spotify API, processes it, and stores it in Amazon S3. AWS Glue and Amazon Athena enable structured querying and efficient analytics.
 
-### Overview
+## Overview
 This project builds a data pipeline to collect, process, and analyze Spotify data using AWS services. It fetches data from the Spotify API, processes it with AWS Lambda, and stores it in Amazon S3 in an organized way. AWS Lambda automatically extracts data at scheduled times using Amazon CloudWatch. The data is cleaned, formatted, and stored in S3 for further analysis. AWS Glue and Amazon Athena help structure and query the data to gain useful insights. This pipeline is scalable, automated, and makes Spotify data analysis easier and more efficient.
 
-### Architecture Diagram
+## Architecture Diagram
 ![image](https://github.com/user-attachments/assets/0277a17d-2160-4c09-8630-12883838ca6f)
 
 ## Methodology
@@ -40,5 +40,10 @@ This project builds a data pipeline to collect, process, and analyze Spotify dat
 ## Significance  
 - Provides a scalable and automated way to process Spotify data.  
 - Helps in generating insights for recommendations, trends, and music popularity analysis.  
+
+##  References  
+
+- **AWS Documentation:** [https://docs.aws.amazon.com](https://docs.aws.amazon.com)  
+- **Spotify API Docs:** [https://developer.spotify.com](https://developer.spotify.com)  
 
 
